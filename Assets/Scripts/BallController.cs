@@ -52,4 +52,10 @@ public class BallController : MonoBehaviour {
 		}
 	}
 
+	void OnTriggerEnter (Collider col) {
+		if (col.gameObject.tag == "Diamond") {
+			Destroy (col.gameObject);
+		}
+	}
+
 }
