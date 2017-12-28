@@ -22,7 +22,7 @@ public class PlatformSpawner : MonoBehaviour {
 	}
 
 	public void StartSpawningPlatforms () {
-		InvokeRepeating ("SpawnPlatforms", 2f, 0.2f);
+		InvokeRepeating ("SpawnPlatforms", 0.1f, 0.2f);
 	}
 	
 	// Update is called once per frame
