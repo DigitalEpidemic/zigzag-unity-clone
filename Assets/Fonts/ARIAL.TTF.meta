@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 11c3ee1deb69a0641b4efc8e54bffaec
+timeCreated: 1514524657
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Arial
+  fontNames:
+  - Arial
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c359f56a2a555dd4fbe4d535c430e6c9, type: 3}
+  - {fileID: 12800000, guid: 580612fbfff68164e98d40457fcfb233, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
