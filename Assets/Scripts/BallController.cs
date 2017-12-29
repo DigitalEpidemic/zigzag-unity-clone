@@ -34,7 +34,7 @@ public class BallController : MonoBehaviour {
 			} 
 		}
 
-		Debug.DrawRay (transform.position, Vector3.down, Color.red);
+		//Debug.DrawRay (transform.position, Vector3.down, Color.red);
 
 		if (!Physics.Raycast (transform.position, Vector3.down, 1f)) {
 			gameOver = true;
@@ -62,7 +62,7 @@ public class BallController : MonoBehaviour {
 		if (col.gameObject.tag == "Diamond") {
 			GameObject part = Instantiate (particle, col.gameObject.transform.position, Quaternion.identity) as GameObject;
 			Destroy (col.gameObject);
-			Destroy (part, 1f);
+			Destroy (part, 2f);
 		}
 	}
 
