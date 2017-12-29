@@ -11,6 +11,6 @@ public class BallAccelerometer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.Translate (Input.acceleration.x/3, 0, Input.acceleration.y/3);
+		transform.Translate (Input.acceleration.x, 0, Input.acceleration.y);
 	}
 }
